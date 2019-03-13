@@ -14,10 +14,10 @@ namespace ShadowDemo {
                 new Employee("Jim", 4000),
                 new Employee("Ellen", 3000),
                 new Employee("Eric", 1000),
-                new Employee("Eric", 1000),
-                new Employee("Eric", 1000),
-                new Employee("Eric", 1000),
-                new Employee("Eric", 1000),
+                new Employee("Mike", 8000),
+                new Employee("Anna", 6000),
+                new Employee("Leo", 1000),
+                new Employee("Mick", 1000),
             };
 
 

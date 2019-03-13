@@ -32,6 +32,7 @@
 
         <StackPanel HorizontalAlignment="Center"
                     VerticalAlignment="Center"
+                    Grid.Column="1"
                     Spacing="40">
 
             <!--<Button Width="200"
@@ -54,7 +55,7 @@
         </StackPanel>
 
         <GridView ItemsSource="{x:Bind Employees}"
-                  Grid.Column="1"
+                  Grid.Column="0"
                   Margin="8">
             <GridView.ItemContainerStyle>
                 <Style TargetType="GridViewItem">
@@ -69,6 +70,7 @@
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="local:Employee">
                     <StackPanel Padding="12"
+                                Width="80"
                                 Spacing="8"
                                 Background="Orange">
                         <TextBlock Text="{x:Bind Name}"
@@ -82,7 +84,7 @@
         <Slider Header="TranslateZ"
                 x:Name="sliderTranlateZ"
                 Minimum="-50"
-                Value="-25"
+                Value="-30"
                 Maximum="0"
                 Grid.Row="1"
                 Grid.ColumnSpan="2"
